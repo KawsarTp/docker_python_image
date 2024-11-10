@@ -1,6 +1,6 @@
 FROM python:3
 WORKDIR /app
 COPY /app /app
-RUN pip install -r /app/requirement.txt
+RUN pip install -r /app/requirements.txt
 CMD python /app/main.py
 EXPOSE 5000
